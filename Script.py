@@ -22,6 +22,7 @@ print('(9)If you have not installed the install script press 9')
 print('(10)Enter Windows CMD with wine')
 print('(11)Not sus at all? ? ? ?')
 print('(12)clone some thing off Github')
+print('(13)Watch funny video')
 #
 #
 pick = int(input(f"{Fore.GREEN + Style.BRIGHT}Pick what you want to do: "))
@@ -61,6 +62,8 @@ if pick==12:
     var5 = input ('What repo do you wan to clone: ')
     os.system('git clone '+var5+' cloned')
     print(f'{Fore.RED}You cloned it in a folder called cloned')
+if pick==13:
+    os.system('google-chrome https://www.youtube.com/watch?v=R-RZ1OrjtQw')
     
 #  
 #
