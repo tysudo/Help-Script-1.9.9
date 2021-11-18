@@ -1,2 +1,2 @@
 # Python Script
- Python Script that will do wtuff
+ Python Script that will do stuff
