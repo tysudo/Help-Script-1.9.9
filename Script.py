@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser(description='This is a script that will make yo
 args = parser.parse_args()
 #args end
 #
-print('(1)Quarantine File')
+print('(1)Quarantine File with Sophos AV')
 print('(2)Run Train')
 print('(3)Scan desktop for viruses')
 print('(4)HTOP')
