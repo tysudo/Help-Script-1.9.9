@@ -66,7 +66,7 @@ if pick==12:
 if pick==13:
     os.system('google-chrome https://www.youtube.com/watch?v=R-RZ1OrjtQw')
 if pick==14:
-    os.system('google-chrome https://www.youtube.com/watch?v=c40SjIZEfcg')
+    os.system('google-chrome https://www.youtube.com/watch?v=Et3G7JSw4fQ')
     
 #  
 #
