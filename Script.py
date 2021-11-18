@@ -10,6 +10,7 @@ parser = argparse.ArgumentParser(description='This is a script that will make yo
 args = parser.parse_args()
 #args end
 #
+print(f'{Fore.RED + Style}')
 print('(1)Quarantine File with Sophos AV')
 print('(2)Run Train')
 print('(3)Scan desktop for viruses')
@@ -24,6 +25,7 @@ print('(11)Not sus at all? ? ? ?')
 print('(12)clone some thing off Github')
 print('(13)Watch funny video to make you happier')
 print('(14)Cool music to listen ')
+
 #
 #
 pick = int(input(f"{Fore.GREEN + Style.BRIGHT}Pick what you want to do: "))
@@ -67,6 +69,7 @@ if pick==13:
     os.system('google-chrome https://www.youtube.com/watch?v=R-RZ1OrjtQw')
 if pick==14:
     os.system('google-chrome https://www.youtube.com/watch?v=Et3G7JSw4fQ')
+
     
 #  
 #
