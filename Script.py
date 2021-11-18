@@ -65,7 +65,7 @@ if pick==12:
     print(f'{Fore.RED}You cloned it in a folder called cloned')
 if pick==13:
     os.system('google-chrome https://www.youtube.com/watch?v=R-RZ1OrjtQw')
-if pick=14:
+if pick==14:
     os.system('google-chrome https://www.youtube.com/watch?v=c40SjIZEfcg')
     
 #  
