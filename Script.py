@@ -19,7 +19,7 @@ print('(6)Open Google Chrome and search')
 print('(7)Open all my favorite apps')
 print('(8)Open cool webpage')
 print('(9)If you have not installed the install script press 9')
-print('(10)Enter Windows CMD')
+print('(10)Enter Windows CMD with wine')
 print('(11)Not sus at all? ? ? ?')
 print('(12)clone some thing off Github')
 #
