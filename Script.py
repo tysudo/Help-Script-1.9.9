@@ -22,7 +22,7 @@ print('(9)If you have not installed the install script press 9')
 print('(10)Enter Windows CMD with wine')
 print('(11)Not sus at all? ? ? ?')
 print('(12)clone some thing off Github')
-print('(13)Watch funny video')
+print('(13)Watch funny video to make you happier')
 #
 #
 pick = int(input(f"{Fore.GREEN + Style.BRIGHT}Pick what you want to do: "))
