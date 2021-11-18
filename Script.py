@@ -21,7 +21,7 @@ print('(8)Open cool webpage')
 print('(9)If you have not installed the install script press 9')
 print('(10)Enter Windows CMD')
 print('(11)Not sus at all? ? ? ?')
-print('')
+print('(12)clone some thing off Github')
 #
 #
 pick = int(input(f"{Fore.GREEN}Pick what you want to do: "))
@@ -57,6 +57,10 @@ if pick==10:
     os.system('wine cmd')
 if pick==11:
     os.system('say oga boga. oga boga ')
+if pick==12:
+    var5 = input ('What repo do you wan to clone: ')
+    os.system('git clone '+var5+' cloned')
+    print(f'{Fore.RED}You cloned it in a folder called cloned')
     
 #  
 #
