@@ -24,7 +24,7 @@ print('(11)Not sus at all? ? ? ?')
 print('(12)clone some thing off Github')
 #
 #
-pick = int(input(f"{Fore.GREEN}Pick what you want to do: "))
+pick = int(input(f"{Fore.GREEN + Style.BRIGHT}Pick what you want to do: "))
 if pick==1:
 #os.system('ls')
     var1 = input(f"{Fore.GREEN}Please enter path: ")
