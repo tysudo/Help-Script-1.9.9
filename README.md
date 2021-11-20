@@ -6,6 +6,11 @@
  cd Python-Script
  pip install -r requirements.txt
  python3 Script.py
+ 
+ ```
+ If on MacOS run
+ 
+ ```
  stty same
  ```
  - [x] Add at least 12 functions
