@@ -22,7 +22,7 @@ print('(9)Not sus at all? ? ? ?')
 print('(10)Clone some thing off Github')
 print('(11)Watch funny video to make you happier')
 print('(12)Cool music to listen ')
-print('(13)Install something')
+print('(13)Install a package')
 
 #
 #pick
