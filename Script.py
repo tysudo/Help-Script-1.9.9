@@ -26,7 +26,7 @@ print('(12)Cool music to listen ')
 print('(13)Install a package')
 print('(14)Search somthing on amazon.com')
 print('(15)Search DuckDuckGo')
-print('(16)')
+print('(16)Search YouTube')
 
 #
 #pick
@@ -79,6 +79,9 @@ if pick==14:
 if pick==15:
     var9 = str(input('What would you like to search for. Spaces must be +: '))
     os.system('google-chrome https://duckduckgo.com/?q='+var9+'')
+if pick==16:
+    var10 = str(input('What would you like to search for. Spaces must +: '))
+    os.system('google-chrome https://www.youtube.com/results?search_query='+var10+'')
         
     
 #pick end
