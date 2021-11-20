@@ -72,6 +72,6 @@ if pick==12:
 #
 else:
     print(Fore.RED +Style.BRIGHT + "FATAL ERROR, you stoped the script")
-    os.system('clear')
+    
     
     
