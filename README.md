@@ -6,6 +6,7 @@
  cd Python-Script
  pip install -r requirements.txt
  python3 Script.py
+ stty same
  ```
  - [x] Add at least 12 functions
  - [ ] Add easier CLI
