@@ -13,7 +13,7 @@ args = parser.parse_args()
 print('(1)Run Train')
 print('(2)HTOP')
 print('(3)List directory of choice')
-print('(4)Open Google Chrome and search')
+print('(4)Open Google Chrome and search. Must be webpage. example youtube.com')
 print('(5)Open all my favorite apps')
 print('(6)Open cool webpage')
 print('(7)If you have not installed the install script press 9')
@@ -22,7 +22,6 @@ print('(9)Not sus at all? ? ? ?')
 print('(10)clone some thing off Github')
 print('(11)Watch funny video to make you happier')
 print('(12)Cool music to listen ')
-print(f'{Fore.RED + Style.BRIGHT}(15)Please donate to us. Its helps a lot ')
 
 #
 #
