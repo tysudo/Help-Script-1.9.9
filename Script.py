@@ -22,6 +22,7 @@ print('(9)Not sus at all? ? ? ?')
 print('(10)Clone some thing off Github')
 print('(11)Watch funny video to make you happier')
 print('(12)Cool music to listen ')
+print('(13)Install something')
 
 #
 #pick
@@ -41,7 +42,7 @@ if pick==5:
 if pick==6:
     os.system('google-chrome https://www.lingscars.com/')
 if pick==7:
-    var4 = str(input(f'{Fore.GREEN}Are you are Mac or Linux. Case sensitive : '))
+    var4 = str(input(f'{Fore.GREEN}Are you are Mac or Linux. cAsE SenSiTiVe : '))
     if var4=="Mac":
         os.system('sh ./install_mac.sh')
     if var4=="Linux":
@@ -60,6 +61,16 @@ if pick==11:
     os.system('google-chrome https://www.youtube.com/watch?v=R-RZ1OrjtQw')
 if pick==12:
     os.system('google-chrome https://www.youtube.com/watch?v=Et3G7JSw4fQ')
+if pick==13:
+    var6 = str(input(f'{Fore.GREEN}Are you on Mac or Linux. cAsE SenSiTiVe: '))
+    if var6=="Mac":
+        var7 = str(input('What package would you like to install: '))
+        os.system('brew install '+var7+'')
+    if var6=="Linux":
+        var8 = str(input('What package would you like to install: '))
+        os.system('sudo apt install '+var8+' -y')
+        
+    
 #pick end
 
     
