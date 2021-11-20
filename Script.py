@@ -27,6 +27,7 @@ print('(13)Install a package')
 print('(14)Search somthing on amazon.com')
 print('(15)Search DuckDuckGo')
 print('(16)Search YouTube')
+print('(17)Search NewEgg')
 
 #
 #pick
@@ -82,6 +83,9 @@ if pick==15:
 if pick==16:
     var10 = str(input('What would you like to search for. Spaces must +: '))
     os.system('google-chrome https://www.youtube.com/results?search_query='+var10+'')
+if pick==17:
+    var11 = str(input('What would you like to search for. Spaces must +: '))
+    os.system('google-chrome https://www.newegg.ca/p/pl?d='+var11+'')
         
     
 #pick end
