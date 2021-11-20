@@ -25,6 +25,7 @@ print('(11)Watch funny video to make you happier')
 print('(12)Cool music to listen ')
 print('(13)Install a package')
 print('(14)Search somthing on amazon.com')
+print('(15)Search DuckDuckGo')
 
 #
 #pick
@@ -72,8 +73,11 @@ if pick==13:
         var8 = str(input('What package would you like to install: '))
         os.system('sudo apt install '+var8+' -y')
 if pick==14:
-    var9 = str(input('What woudl you like to search for. Spaces must be +: '))
+    var9 = str(input('What would you like to search for. Spaces must be +: '))
     os.system('google-chrome https://www.amazon.ca/s?k='+var9+'')
+if pick==15:
+    var9 = str(input('What would you like to search for. Spaces must be +: '))
+    os.system('google-chrome https://duckduckgo.com/?q='+var9+'')
         
     
 #pick end
