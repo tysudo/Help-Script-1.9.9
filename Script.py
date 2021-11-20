@@ -43,7 +43,7 @@ if pick==5:
 if pick==6:
     os.system('google-chrome https://www.lingscars.com/')
 if pick==7:
-    var4 = str(input(f'{Fore.GREEN}Are you are Mac or Linux. cAsE SenSiTiVe : '))
+    var4 = str(input(f'{Fore.GREEN}Are you are Mac or Linux. cAsE SeNsItIvE : '))
     if var4=="Mac":
         os.system('sh ./install_mac.sh')
     if var4=="Linux":
@@ -63,7 +63,7 @@ if pick==11:
 if pick==12:
     os.system('google-chrome https://www.youtube.com/watch?v=Et3G7JSw4fQ')
 if pick==13:
-    var6 = str(input(f'{Fore.GREEN}Are you on Mac or Linux. cAsE SenSiTiVe: '))
+    var6 = str(input(f'{Fore.GREEN}Are you on Mac or Linux. cAsE SeNsItIvE: '))
     if var6=="Mac":
         var7 = str(input('What package would you like to install: '))
         os.system('brew install '+var7+'')
