@@ -13,13 +13,13 @@ args = parser.parse_args()
 print('(1)Run Train')
 print('(2)HTOP')
 print('(3)List directory of choice')
-print('(4)Open Google Chrome and search. Must be webpage. example youtube.com')
+print('(4)Open Google Chrome and search.')
 print('(5)Open all my favorite apps')
 print('(6)Open cool webpage')
 print('(7)If you have not installed the install script press 7')
 print('(8)Enter Windows CMD with wine')
 print('(9)Not sus at all? ? ? ?')
-print('(10)clone some thing off Github')
+print('(10)Clone some thing off Github')
 print('(11)Watch funny video to make you happier')
 print('(12)Cool music to listen ')
 
@@ -34,8 +34,8 @@ if pick==3:
     var2 = input(f"{Fore.GREEN}Please enter path: ")
     os.system('ls '+var2+'')
 if pick==4:
-    var3 = input(f'{Fore.GREEN}Please enter what you want to search. Has to be a webpage. ex. youtube.com: ')
-    os.system('google-chrome  '+var3+' ')
+    var3 = input(f'{Fore.GREEN}Please enter what you want to search. Spaces must be dashes: ')
+    os.system('google-chrome https://www.google.com/search?q='+var3+' ')
 if pick==5:
     os.system('discord && google-chrome')
 if pick==6:
@@ -72,5 +72,6 @@ if pick==12:
 #
 else:
     print(Fore.RED +Style.BRIGHT + "FATAL ERROR, you stoped the script")
+    os.system('clear')
     
     
