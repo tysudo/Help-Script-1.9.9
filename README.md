@@ -1,6 +1,6 @@
 # Python Script
  Python Script that will do stuff. Image not updated
- Before running script run 
+ Please run this code ↓ ↓ ↓
  ```
  git clone https://github.com/tysudo/Python-Script.git
  cd Python-Script
