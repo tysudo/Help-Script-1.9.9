@@ -11,8 +11,8 @@
  - [ ] Add easier CLI
  - [ ] Possibly add GUI
  
-![image](https://user-images.githubusercontent.com/91703892/142709102-c45f27cf-a87a-4cfc-8065-c8c5aeb9638a.png)
-- Made by 
+
+Made by 
 - Tytan MW
 - Edward W
 
