@@ -1,5 +1,5 @@
 # Python Script
- Python Script that will do stuff. Image not updated.
+ Python Script that will do stuff.
  Please run this code ↓ ↓ ↓
  ```
  git clone https://github.com/tysudo/Python-Script.git
