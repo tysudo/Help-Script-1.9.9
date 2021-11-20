@@ -5,6 +5,7 @@ import colorama
 from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
 import argparse
+import scrapy
 #args
 parser = argparse.ArgumentParser(description='This is a script that will make your day faster.')
 args = parser.parse_args()
@@ -71,7 +72,7 @@ if pick==13:
         var8 = str(input('What package would you like to install: '))
         os.system('sudo apt install '+var8+' -y')
 if pick==14:
-    var9 = str(input('What woudl you like to search for. Spaces must be dashes: '))
+    var9 = str(input('What woudl you like to search for. Spaces must be +: '))
     os.system('google-chrome https://www.amazon.ca/s?k='+var9+'')
         
     
