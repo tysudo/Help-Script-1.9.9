@@ -23,6 +23,7 @@ print('(10)Clone some thing off Github')
 print('(11)Watch funny video to make you happier')
 print('(12)Cool music to listen ')
 print('(13)Install a package')
+print('(14)Search somthing on amazon.com')
 
 #
 #pick
@@ -69,6 +70,9 @@ if pick==13:
     if var6=="Linux":
         var8 = str(input('What package would you like to install: '))
         os.system('sudo apt install '+var8+' -y')
+if pick==14:
+    var9 = str(input('What woudl you like to search for. Spaces must be dashes: '))
+    os.system('google-chrome https://www.amazon.ca/s?k='+var9+'')
         
     
 #pick end
