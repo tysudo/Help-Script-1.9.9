@@ -66,8 +66,8 @@ if pick == "System":
     System = int(input('what would you like to do: '))
     print('(1)Run train')
     print('(2)HTOP')
-    print('(3)')
-#you need to stop adding comments
+    print('(3)Search directory')
+    print('(4)Clone somthing off of Github')
         
     
         
