@@ -11,12 +11,13 @@ parser = argparse.ArgumentParser(description='This is a script that will make yo
 args = parser.parse_args()
 #added another comment
 
-
+print(f'{Fore.RED + Style.BRIGHT }THIS IS A BETA SCRIPT. RUN AT OWN RISK')
 print('Search')
 print('Wine')
 print('Install')
 print('Other')
 print('System')
+
 pick = str(input(f'{Fore.GREEN}What do you want to do: '))
 #eeeeeeeeeeeeeeeeeeeeeee
 if pick == "Search":
