@@ -54,11 +54,18 @@ if pick == "Install":
 if pick == "Other":
     print('(1)Not sus at all')
     print('(2)coolish webpage')
+    print('(3)Cool music to listen to')
+    print('(4)Funny video to make you happier')
     Other = int(input('what would you like to do: '))
     if Other == 1:
         os.system('say oga boga. oga boga')
     if Other == 2:
         os.system('google-chrome https://www.lingscars.com')
+    if Other == 3:
+        os.system('google-chrome https://www.youtube.com/watch?v=Et3G7JSw4fQ')
+    if Other == 4:
+        os.system('')
+    
 if pick == "System":
     System = int(input('what would you like to do: '))
     print('(1)Run train')
@@ -68,6 +75,7 @@ if pick == "System":
 =======
     print('(3)Search directory')
     print('(4)Clone somthing off of Github')
+    
         
 >>>>>>> bc4b9b940b4887a300f5c7265e94ac6876421287
     
