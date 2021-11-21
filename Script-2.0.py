@@ -1,5 +1,3 @@
-#did this comment work?
-
 import os
 import sys
 import tkinter
@@ -11,7 +9,6 @@ import scrapy
 #args
 parser = argparse.ArgumentParser(description='This is a script that will make your day faster.')
 args = parser.parse_args()
-#added another comment
 
 
 print('Search')
@@ -67,7 +64,5 @@ if pick == "System":
     print('(1)Run train')
     print('(2)HTOP')
     print('(3)')
-#you need to stop adding comments
-        
     
         
