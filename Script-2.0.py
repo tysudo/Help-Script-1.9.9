@@ -63,6 +63,12 @@ if pick == "System":
     System = int(input('what would you like to do: '))
     print('(1)Run train')
     print('(2)HTOP')
+<<<<<<< HEAD
     print('(3)')
+=======
+    print('(3)Search directory')
+    print('(4)Clone somthing off of Github')
+        
+>>>>>>> bc4b9b940b4887a300f5c7265e94ac6876421287
     
         
