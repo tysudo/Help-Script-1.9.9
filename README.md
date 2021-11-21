@@ -1,7 +1,8 @@
-# Python Script. ***CURRENTLY NOT WORKING ON WINDOWS AND MAC. WORKING ON IT***
+# Python Script. 
+## ~~***CURRENTLY NOT WORKING ON AND MAC. WORKING ON IT***~~
  Python Script that will do stuff.
  Please run this code ↓ ↓ ↓
-If on __Linux__ or ~~windoes~~ run this ↓ ↓ ↓
+If on __Linux__ run this ↓ ↓ ↓
  ```
  git clone https://github.com/tysudo/Python-Script.git
  cd Python-Script
@@ -10,7 +11,7 @@ If on __Linux__ or ~~windoes~~ run this ↓ ↓ ↓
  python3 Script.py
  #DO NOT RUN BETA SCRIPT
  ```
- ~~If on MacOS run ↓ ↓ ↓~~
+ If on __MacOS__ run ↓ ↓ ↓
  
  ```
  git clone https://github.com/tysudo/Python-Script.git
