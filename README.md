@@ -9,7 +9,7 @@ If on __Linux__ run this ↓ ↓ ↓
  pip3 freeze > requirements.txt
  pip install -r requirements.txt
  python3 Script.py
- #DO NOT RUN BETA SCRIPT
+ #DO NOT RUN THE OLD SCRIPT
  ```
  If on __MacOS__ run ↓ ↓ ↓
  
@@ -20,7 +20,7 @@ If on __Linux__ run this ↓ ↓ ↓
  pip install -r requirements.txt
  python3 Script.py
  stty sane
- #DO NOT RUN BETA SCRIPT
+ #DO NOT RUN THE OLD SCRIPT
  ```
  - [x] Add at least 12 functions
  - [x] Add easier CLI. Being beta tested
