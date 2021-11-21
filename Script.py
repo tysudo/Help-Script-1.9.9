@@ -13,6 +13,8 @@ args = parser.parse_args()
 print(f'{Fore.RED + Style.BRIGHT }If you find any bugs in this script, please report them to https://github.com/tysudo/Help-Script/issues ')
 ChooseOS = str(input(f'{Fore.GREEN}What Operating System are you using, Linux or Mac?: '))
 #eeeeeeeeeeeeeeeeeeeeeee
+print(f'{Fore.RED + Style.BRIGHT }If you find any bugs in this script, please report them to https://github.com/tysudo/Help-Script/issues ')
+print(f'{Fore.RED + Style.BRIGHT }If you find any bugs in this script, please report them to https://github.com/tysudo/Help-Script/issues ')
 if ChooseOS == "Linux":
 
     print(f'{Fore.RED + Style.BRIGHT }If you find any bugs in this script, please report them to https://github.com/tysudo/Help-Script/issues ')
@@ -94,7 +96,6 @@ if ChooseOS == "Linux":
             os.system('git clone '+var8+' cloned')
             
 if ChooseOS =="Mac":
-    print(f'{Fore.RED + Style.BRIGHT }If you find any bugs in this script, please report them to https://github.com/tysudo/Help-Script/issues ')
     print('Search')
     print('Wine')
     print('Install')
