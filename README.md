@@ -7,6 +7,7 @@ If on Linux or windoes run this ↓ ↓ ↓
  cd Python-Script
  pip install -r requirements.txt
  python3 Script.py
+ #DO NOT RUN BETA SCRIPT
  ```
  If on MacOS run ↓ ↓ ↓
  
@@ -16,9 +17,10 @@ If on Linux or windoes run this ↓ ↓ ↓
  pip install -r requirements.txt
  python3 Script.py
  stty same
+ #DO NOT RUN BETA SCRIPT
  ```
  - [x] Add at least 12 functions
- - [ ] Add easier CLI. Almost done.
+ - [ ] Add easier CLI. Being beta tested
  - [ ] Possibly add GUI
  
 
