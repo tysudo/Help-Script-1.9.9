@@ -10,7 +10,7 @@ If on Linux or ~~windoes~~ run this ↓ ↓ ↓
  python3 Script.py
  #DO NOT RUN BETA SCRIPT
  ```
- ~~If on MacOS run ↓ ↓ ↓
+ ~~If on MacOS run ↓ ↓ ↓~~
  
  ```
  git clone https://github.com/tysudo/Python-Script.git
