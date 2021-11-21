@@ -47,6 +47,7 @@ print('(16)Search YouTube')
 print(f'{Fore.RED + Style.BRIGHT} THIS SCRIPT IS OLD AND MAY NOT WORK! RUN AT OWN RISK')
 print('(17)Search NewEgg')
 print(f'{Fore.RED + Style.BRIGHT} THIS SCRIPT IS OLD AND MAY NOT WORK! RUN AT OWN RISK')
+print(f'{Fore.RED + Style.BRIGHT} THIS SCRIPT IS OLD AND MAY NOT WORK! RUN AT OWN RISK')
 
 #
 #pick
