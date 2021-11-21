@@ -115,16 +115,16 @@ if ChooseOS =="Mac":
             os.system('open -a "Google Chrome" https://www.amazon.ca/s?k='+var1+'')
         if search == 2:
             var2 = str(input('What would you like to search for. Spaces must be +: '))
-            os.system('google-chrome https://duckduckgo.com/?q='+var2+' ')
+            os.system('open -a "Google Chrome" https://duckduckgo.com/?q='+var2+' ')
         if search == 3:
             var3 = str(input('What would you like to search for. Spaces must be +: '))
-            os.system('google-chrome https://www.youtube.com/results?search_query='+var3+'')
+            os.system('open -a "Google Chrome" https://www.youtube.com/results?search_query='+var3+'')
         if search == 4:
             var4 = str(input('What would you like to search for. Spaces must be +: '))
-            os.system('google-chrome https://www.newegg.ca/p/pl?d='+var4+'')
+            os.system('open -a "Google Chrome" https://www.newegg.ca/p/pl?d='+var4+'')
         if search == 5:
             var5 = str(input('What would you like to search for. Spaces must be +: '))
-            os.system('google-chrome https://www.google.com/search?q='+var5+'')
+            os.system('open -a "Google Chrome" https://www.google.com/search?q='+var5+'')
     #eeeeeeeeeeeeeeeeeee
     if pick == "Wine":
         print(f'{Fore.GREEN}(1)Wine CMD')
@@ -149,11 +149,11 @@ if ChooseOS =="Mac":
         if Other == 1:
             os.system('say oga boga. oga boga')
         if Other == 2:
-            os.system('google-chrome https://www.lingscars.com')
+            os.system('open -a "Google Chrome" https://www.lingscars.com')
         if Other == 3:
-            os.system('google-chrome https://www.youtube.com/watch?v=Et3G7JSw4fQ')
+            os.system('open -a "Google Chrome" https://www.youtube.com/watch?v=Et3G7JSw4fQ')
         if Other == 4:
-            os.system('google-chrome https://www.youtube.com/watch?v=R-RZ1OrjtQw')
+            os.system('open -a "Google Chrome" https://www.youtube.com/watch?v=R-RZ1OrjtQw')
     #eeeeeeeeeeeeeeeeeeeeeeeeeee
     if pick == "System":
         print(f'{Fore.GREEN}(1)Run train')
