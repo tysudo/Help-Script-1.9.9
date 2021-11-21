@@ -1,7 +1,7 @@
 # Python Script. CURRENTLY NOT WORKING ON WINDOWS AND MAC. WORKING ON IT
  Python Script that will do stuff.
  Please run this code ↓ ↓ ↓
-If on Linux or ~~windoes~~ run this ↓ ↓ ↓
+If on __Linux__ or ~~windoes~~ run this ↓ ↓ ↓
  ```
  git clone https://github.com/tysudo/Python-Script.git
  cd Python-Script
