@@ -11,7 +11,7 @@ If on __Linux__ run this ↓ ↓ ↓
  python3 Script.py
  #DO NOT RUN BETA SCRIPT
  ```
- If on MacOS run ↓ ↓ ↓
+ If on __MacOS__ run ↓ ↓ ↓
  
  ```
  git clone https://github.com/tysudo/Python-Script.git
