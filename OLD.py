@@ -10,7 +10,11 @@ import scrapy
 parser = argparse.ArgumentParser(description='This is a script that will make your day faster.')
 args = parser.parse_args()
 #args end
-#
+print(f'{Fore.RED + Style.BRIGHT}THIS SCRIPT HAS LOTS OF BUGS. DO NOT USE THIS SCRIPT!!!')
+print(f'{Fore.RED + Style.BRIGHT}THIS SCRIPT HAS LOTS OF BUGS. DO NOT USE THIS SCRIPT!!!')
+print(f'{Fore.RED + Style.BRIGHT}THIS SCRIPT HAS LOTS OF BUGS. DO NOT USE THIS SCRIPT!!!')
+print(f'{Fore.RED + Style.BRIGHT}THIS SCRIPT HAS LOTS OF BUGS. DO NOT USE THIS SCRIPT!!!')
+print(f'{Fore.RED + Style.BRIGHT}THIS SCRIPT HAS LOTS OF BUGS. DO NOT USE THIS SCRIPT!!!')
 print('(1)Run Train')
 print('(2)HTOP')
 print('(3)List directory of choice')
