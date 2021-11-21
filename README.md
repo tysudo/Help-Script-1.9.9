@@ -1,7 +1,7 @@
-# Python Script
+# Python Script. CURRENTLY NOT WORKING ON WINDOWS AND MAC. WORKING ON IT
  Python Script that will do stuff.
  Please run this code ↓ ↓ ↓
-If on Linux or windoes run this ↓ ↓ ↓
+If on Linux or ~~windoes~~ run this ↓ ↓ ↓
  ```
  git clone https://github.com/tysudo/Python-Script.git
  cd Python-Script
@@ -10,7 +10,7 @@ If on Linux or windoes run this ↓ ↓ ↓
  python3 Script.py
  #DO NOT RUN BETA SCRIPT
  ```
- If on MacOS run ↓ ↓ ↓
+ ~~If on MacOS run ↓ ↓ ↓
  
  ```
  git clone https://github.com/tysudo/Python-Script.git
