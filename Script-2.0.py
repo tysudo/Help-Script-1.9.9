@@ -63,7 +63,10 @@ if pick == "Other":
     if Other == 2:
         os.system('google-chrome https://www.lingscars.com')
 if pick == "System":
-    systen = 
+    System = int(input('what would you like to do: '))
+    print('(1)Run train')
+    print('(2)HTOP')
+    print('(3)')
         
     
         

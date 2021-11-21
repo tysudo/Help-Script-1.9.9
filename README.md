@@ -23,7 +23,7 @@ If on Linux or windoes run this ↓ ↓ ↓
  
 
 Made by 
-- Tytan MW
+- Tysudo
 - Edward W
 
 
