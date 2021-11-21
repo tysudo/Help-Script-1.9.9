@@ -10,7 +10,7 @@ import scrapy
 parser = argparse.ArgumentParser(description='This is a script that will make your day faster.')
 args = parser.parse_args()
 #added another comment
-
+print(f'{Fore.RED + Style.BRIGHT }THIS IS A BETA SCRIPT. RUN AT OWN RISK!!!')
 ChooseOS = str(input(f'{Fore.GREEN}What Operating System are you using, Linux or Mac?: '))
 #eeeeeeeeeeeeeeeeeeeeeee
 if ChooseOS == "Linux":
