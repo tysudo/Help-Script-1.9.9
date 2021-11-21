@@ -15,7 +15,7 @@ print('Search')
 print('Wine')
 print('Install')
 print('Other')
-print('System commands')
+print('System')
 pick = str(input(f'{Fore.GREEN}What do you want to do: '))
 if pick == "Search":
     print(f'{Fore.GREEN}(1)Search Amazon.com')
@@ -51,6 +51,16 @@ if pick == "Install":
         os.system('sh ./install_mac.sh')
     if var6=="Linux":
         os.system('sudo sh ./install_linux.sh')
-if pick=="Other":
-    print('')
+if pick == "Other":
+    print('(1)Not sus at all')
+    print('(2)coolish webpage')
+    Other = int(input('what would you like to do: '))
+    if Other == 1:
+        os.system('say oga boga. oga boga')
+    if Other == 2:
+        os.system('google-chrome https://www.lingscars.com')
+if pick == "System":
+    systen = 
+        
+    
         
