@@ -1,3 +1,5 @@
+#did this comment work?
+
 import os
 import sys
 import tkinter
@@ -9,6 +11,7 @@ import scrapy
 #args
 parser = argparse.ArgumentParser(description='This is a script that will make your day faster.')
 args = parser.parse_args()
+#added another comment
 
 
 print('Search')
@@ -70,13 +73,9 @@ if pick == "System":
     System = int(input('what would you like to do: '))
     print('(1)Run train')
     print('(2)HTOP')
-<<<<<<< HEAD
-    print('(3)')
-=======
     print('(3)Search directory')
     print('(4)Clone somthing off of Github')
     
         
->>>>>>> bc4b9b940b4887a300f5c7265e94ac6876421287
     
         
