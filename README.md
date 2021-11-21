@@ -1,4 +1,4 @@
-# Python Script. CURRENTLY NOT WORKING ON WINDOWS AND MAC. WORKING ON IT
+# Python Script. ***CURRENTLY NOT WORKING ON WINDOWS AND MAC. WORKING ON IT***
  Python Script that will do stuff.
  Please run this code ↓ ↓ ↓
 If on __Linux__ or ~~windoes~~ run this ↓ ↓ ↓
