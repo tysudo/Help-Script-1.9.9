@@ -18,7 +18,7 @@ If on Linux or windoes run this ↓ ↓ ↓
  stty same
  ```
  - [x] Add at least 12 functions
- - [ ] Add easier CLI
+ - [ ] Add easier CLI. Almost done.
  - [ ] Possibly add GUI
  
 
