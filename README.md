@@ -18,7 +18,7 @@ If on Linux or windoes run this ↓ ↓ ↓
  pip3 freeze > requirements.txt
  pip install -r requirements.txt
  python3 Script.py
- stty same
+ stty sane
  #DO NOT RUN BETA SCRIPT
  ```
  - [x] Add at least 12 functions
