@@ -46,7 +46,7 @@ if pick == "Wine":
         os.system('wine cmd')
 if pick == "Install":
     print('(1)Install script')
-     var6 = str(input(f'{Fore.GREEN}Are you are Mac or Linux. cAsE SeNsItIvE : '))
+    var6 = str(input(f'{Fore.GREEN}Are you are Mac or Linux. cAsE SeNsItIvE : '))
     if var6=="Mac":
         os.system('sh ./install_mac.sh')
     if var6=="Linux":
