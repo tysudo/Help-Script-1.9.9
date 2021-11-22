@@ -16,7 +16,9 @@ args = parser.parse_args()
 #added another comment
 print(f'{Fore.RED + Style.BRIGHT }If you find any bugs in this script, please report them to https://github.com/tysudo/Help-Script/issues ')
 ChooseOS = str(input(f'{Fore.GREEN}What Operating System are you using, Linux or Mac? cAsE SeNsItIvE: '))
+
 #eeeeeeeeeeeeeeeeeeeeeee
+
 if ChooseOS == "Linux":
     print(f'{Fore.RED}Search')
     print(f'{Fore.RED}Wine')
@@ -25,7 +27,9 @@ if ChooseOS == "Linux":
     print(f'{Fore.RED}System')
 
     pick = str(input(f'{Fore.GREEN}What do you want to do: '))
+  
     #eeeeeeeeeeeeeeeeeeeeeee
+ 
     if pick == "Search":
         print(f'{Fore.GREEN}(1)Search Amazon.com')
         print(f'{Fore.GREEN}(2)Search DuckDuckGo')
@@ -53,14 +57,18 @@ if ChooseOS == "Linux":
             var5 = str(input('What would you like to search for. Spaces must be +: '))
             os.system('google-chrome https://www.google.com/search?q='+var5+'')
             os.system('python3 Script.py')
+  
     #eeeeeeeeeeeeeeeeeee
+ 
     if pick == "Wine":
         print(f'{Fore.GREEN}(1)Wine CMD')
         wine = int(input(f'{Fore.GREEN}What would you like to do: '))
         if wine == 1:
             os.system('wine cmd')
             os.system('python3 Script.py')
+  
     #eeeeeeeeeeeeeeeeeeeeeeeeee
+   
     if pick == "Install":
         print('(1)Install script')
         var6 = str(input(f'{Fore.GREEN}Are you are Mac or Linux. cAsE SeNsItIvE : '))
@@ -70,7 +78,9 @@ if ChooseOS == "Linux":
         if var6=="Linux":
             os.system('sudo sh ./install_linux.sh')
             os.system('python3 Script.py')
+  
     #eeeeeeeeeeeeeeeeeeeeeeeee
+  
     if pick == "Other":
         print(f'{Fore.GREEN}(1)Not sus at all')
         print(f'{Fore.GREEN}(2)coolish webpage')
@@ -89,7 +99,9 @@ if ChooseOS == "Linux":
         if Other == 4:
             os.system('google-chrome https://www.youtube.com/watch?v=R-RZ1OrjtQw')
             os.system('python3 Script.py')
+
     #eeeeeeeeeeeeeeeeeeeeeeeeeee
+
     if pick == "System":
         print(f'{Fore.GREEN}(1)Run train')
         print(f'{Fore.GREEN}(2)HTOP')
@@ -124,7 +136,9 @@ if ChooseOS =="Mac":
     print(f'{Fore.RED}System')
 
     pick = str(input(f'{Fore.GREEN}What do you want to do: '))
+
     #eeeeeeeeeeeeeeeeeeeeeee
+
     if pick == "Search":
         print(f'{Fore.GREEN}(1)Search Amazon.com')
         print(f'{Fore.GREEN}(2)Search DuckDuckGo')
@@ -147,13 +161,17 @@ if ChooseOS =="Mac":
         if search == 5:
             var5 = str(input('What would you like to search for. Spaces must be +: '))
             os.system('open -a "Google Chrome" https://www.google.com/search?q='+var5+'')
+   
     #eeeeeeeeeeeeeeeeeee
+   
     if pick == "Wine":
         print(f'{Fore.GREEN}(1)Wine CMD')
         wine = int(input(f'{Fore.GREEN}What would you like to do: '))
         if wine == 1:
             os.system('wine cmd')
+   
     #eeeeeeeeeeeeeeeeeeeeeeeeee
+  
     if pick == "Install":
         print('(1)Install script')
         var6 = str(input(f'{Fore.GREEN}Are you are Mac or Linux. cAsE SeNsItIvE : '))
@@ -161,7 +179,9 @@ if ChooseOS =="Mac":
             os.system('sh ./install_mac.sh')
         if var6=="Linux":
             os.system('sudo sh ./install_linux.sh')
+   
     #eeeeeeeeeeeeeeeeeeeeeeeee
+   
     if pick == "Other":
         print(f'{Fore.GREEN}(1)Not sus at all')
         print(f'{Fore.GREEN}(2)coolish webpage')
@@ -176,7 +196,9 @@ if ChooseOS =="Mac":
             os.system('open -a "Google Chrome" https://www.youtube.com/watch?v=Et3G7JSw4fQ')
         if Other == 4:
             os.system('open -a "Google Chrome" https://www.youtube.com/watch?v=R-RZ1OrjtQw')
+   
     #eeeeeeeeeeeeeeeeeeeeeeeeeee
+  
     if pick == "System":
         print(f'{Fore.GREEN}(1)Run train')
         print(f'{Fore.GREEN}(2)HTOP')
