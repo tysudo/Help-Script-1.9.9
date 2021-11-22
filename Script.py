@@ -62,14 +62,8 @@ if ChooseOS == "Linux":
             os.system('python3 Script.py')
     #eeeeeeeeeeeeeeeeeeeeeeeeee
     if pick == "Install":
-        print('(1)Install script')
-        var6 = str(input(f'{Fore.GREEN}Are you are Mac or Linux. cAsE SeNsItIvE : '))
-        if var6=="Mac":
-            os.system('sh ./install_mac.sh')
-            os.system('python3 Script.py')
-        if var6=="Linux":
-            os.system('sudo sh ./install_linux.sh')
-            os.system('python3 Script.py')
+        os.system('sudo sh ./install_linux.sh')
+        os.system('python3 Script.py')
     #eeeeeeeeeeeeeeeeeeeeeeeee
     if pick == "Other":
         print(f'{Fore.GREEN}(1)Not sus at all')
