@@ -1,5 +1,5 @@
-# Python Script. 
-## ~~***CURRENTLY NOT WORKING ON AND MAC. WORKING ON IT***~~
+# Help Script 
+## This script needs Python3 and Pip3 installed.
  Python Script that will do stuff.
  Please run this code ↓ ↓ ↓
 If on __Linux__ run this ↓ ↓ ↓
