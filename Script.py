@@ -11,14 +11,14 @@ parser = argparse.ArgumentParser(description='This is a script that will make yo
 args = parser.parse_args()
 #added another comment
 print(f'{Fore.RED + Style.BRIGHT }If you find any bugs in this script, please report them to https://github.com/tysudo/Help-Script/issues ')
-ChooseOS = str(input(f'{Fore.GREEN}What Operating System are you using, Linux or Mac?: '))
+ChooseOS = str(input(f'{Fore.GREEN}What Operating System are you using, Linux or Mac? cAsE SeNsItIvE: '))
 #eeeeeeeeeeeeeeeeeeeeeee
 if ChooseOS == "Linux":
     print(f'{Fore.RED}Search')
     print(f'{Fore.RED}Wine')
     print(f'{Fore.RED}Install')
     print(f'{Fore.RED}Other')
-    print(f'{Fore.RED}system')
+    print(f'{Fore.RED}System')
 
     pick = str(input(f'{Fore.GREEN}What do you want to do: '))
     #eeeeeeeeeeeeeeeeeeeeeee
@@ -157,7 +157,7 @@ if ChooseOS =="Mac":
         print(f'{Fore.GREEN}(2)HTOP')
         print(f'{Fore.GREEN}(3)Search directory')
         print(f'{Fore.GREEN}(4)Clone somthing off of Github')
-        System = int(input('what would you like to do: '))
+        System = int(input('What would you like to do: '))
         if System == 1:
             os.system('sl')
         if System == 2:
@@ -168,6 +168,8 @@ if ChooseOS =="Mac":
         if System == 4:
             var8 = str(input(f'{Fore.GREEN}What would you like to clone: '))
             os.system('git clone '+var8+' cloned')
+else:
+    print(f'{Fore.RED + Style.BRIGHT }TYPO! TYPO! TYPO! TYPO! TYPO! TYPO! TYPO!')
  
     
         
