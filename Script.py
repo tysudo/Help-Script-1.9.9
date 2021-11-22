@@ -143,18 +143,23 @@ if ChooseOS =="Mac":
         if search == 1:
             var1 = str(input('What would you like to search for. Spaces must be +: '))
             os.system('open -a "Google Chrome" https://www.amazon.ca/s?k='+var1+'')
+            os.system('python3 Script.py')
         if search == 2:
             var2 = str(input('What would you like to search for. Spaces must be +: '))
             os.system('open -a "Google Chrome" https://duckduckgo.com/?q='+var2+' ')
+            os.system('python3 Script.py')            
         if search == 3:
             var3 = str(input('What would you like to search for. Spaces must be +: '))
             os.system('open -a "Google Chrome" https://www.youtube.com/results?search_query='+var3+'')
+            os.system('python3 Script.py')
         if search == 4:
             var4 = str(input('What would you like to search for. Spaces must be +: '))
             os.system('open -a "Google Chrome" https://www.newegg.ca/p/pl?d='+var4+'')
+            os.system('python3 Script.py')
         if search == 5:
             var5 = str(input('What would you like to search for. Spaces must be +: '))
             os.system('open -a "Google Chrome" https://www.google.com/search?q='+var5+'')
+            os.system('python3 Script.py')
    
     #eeeeeeeeeeeeeeeeeee
    
@@ -163,6 +168,7 @@ if ChooseOS =="Mac":
         wine = int(input(f'{Fore.GREEN}What would you like to do: '))
         if wine == 1:
             os.system('wine cmd')
+            os.system('python3 Script.py')
    
     #eeeeeeeeeeeeeeeeeeeeeeeeee
   
@@ -171,8 +177,10 @@ if ChooseOS =="Mac":
         var6 = str(input(f'{Fore.GREEN}Are you are Mac or Linux. cAsE SeNsItIvE : '))
         if var6=="Mac":
             os.system('sh ./install_mac.sh')
+            os.system('python3 Script.py')
         if var6=="Linux":
             os.system('sudo sh ./install_linux.sh')
+            os.system('python3 Script.py')
    
     #eeeeeeeeeeeeeeeeeeeeeeeee
    
@@ -184,12 +192,16 @@ if ChooseOS =="Mac":
         Other = int(input(f'{Fore.GREEN}What would you like to do: '))
         if Other == 1:
             os.system('say oga boga. oga boga')
+            os.system('python3 Script.py')
         if Other == 2:
             os.system('open -a "Google Chrome" https://www.lingscars.com')
+            os.system('python3 Script.py')
         if Other == 3:
             os.system('open -a "Google Chrome" https://www.youtube.com/watch?v=Et3G7JSw4fQ')
+            os.system('python3 Script.py')
         if Other == 4:
             os.system('open -a "Google Chrome" https://www.youtube.com/watch?v=R-RZ1OrjtQw')
+            os.system('python3 Script.py')
    
     #eeeeeeeeeeeeeeeeeeeeeeeeeee
   
@@ -201,14 +213,18 @@ if ChooseOS =="Mac":
         System = int(input('What would you like to do: '))
         if System == 1:
             os.system('sl')
+            os.system('python3 Script.py')
         if System == 2:
             os.system('htop')
+            os.system('python3 Script.py')
         if System == 3:
             var7 = str(input(f'{Fore.GREEN}What directory would you like to search: '))
             os.system('ls '+var7+'')
+            os.system('python3 Script.py')
         if System == 4:
             var8 = str(input(f'{Fore.GREEN}What would you like to clone: '))
             os.system('git clone '+var8+' cloned')
+            os.system('python3 Script.py')
 else:
     print(f'{Fore.RED + Style.BRIGHT }Sorry for this error. Please report it to https://github.com/tysudo/Help-Script/issues')
  
