@@ -1,5 +1,5 @@
-# Python Script. 
-## ~~***CURRENTLY NOT WORKING ON AND MAC. WORKING ON IT***~~
+# Help Script 
+## This script needs Python3 and Pip3 installed.
  Python Script that will do stuff.
  Please run this code ↓ ↓ ↓
 If on __Linux__ run this ↓ ↓ ↓
@@ -23,7 +23,7 @@ If on __Linux__ run this ↓ ↓ ↓
  #DO NOT RUN THE OLD SCRIPT
  ```
  - [x] Add at least 12 functions
- - [x] Add easier CLI. Being beta tested
+ - [x] Add easier CLI.
  - [ ] Possibly add GUI
  
 
