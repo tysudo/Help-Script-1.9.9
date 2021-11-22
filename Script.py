@@ -102,7 +102,7 @@ if ChooseOS == "Linux":
         print(f'{Fore.GREEN}(3)Search directory')
         print(f'{Fore.GREEN}(4)Clone somthing off of Github')
         print(f'{Fore.GREEN}(5)Make a File')
-        System = int(input('what would you like to do: '))
+        System = int(input('What would you like to do: '))
         if System == 1:
             os.system('sl')
             os.system('python3 Script.py')
