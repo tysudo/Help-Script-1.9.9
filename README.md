@@ -23,7 +23,7 @@ If on __Linux__ run this ↓ ↓ ↓
  #DO NOT RUN THE OLD SCRIPT
  ```
  - [x] Add at least 12 functions
- - [x] Add easier CLI. Being beta tested
+ - [x] Add easier CLI.
  - [ ] Possibly add GUI
  
 
