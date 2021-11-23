@@ -7,9 +7,10 @@ colorama.init(autoreset=True)
 import argparse
 import scrapy
 
-#TEST
-
-#TEST END
+#puplish
+def add_one(number):
+    return number + 1
+#puplish END
 #args
 parser = argparse.ArgumentParser(description='This is a script that will make your day faster.')
 args = parser.parse_args()
