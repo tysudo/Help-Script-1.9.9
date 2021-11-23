@@ -204,6 +204,7 @@ if ChooseOS =="Mac":
         print(f'{Fore.GREEN}(2)HTOP')
         print(f'{Fore.GREEN}(3)Search directory')
         print(f'{Fore.GREEN}(4)Clone somthing off of Github')
+        print(f'{Fore.GREEN}(5)Make a file')
         System = int(input('What would you like to do: '))
         if System == 1:
             os.system('sl')
@@ -218,6 +219,10 @@ if ChooseOS =="Mac":
         if System == 4:
             var8 = str(input(f'{Fore.GREEN}What would you like to clone: '))
             os.system('git clone '+var8+' cloned')
+            os.system('python3 Script.py')
+        if System == 5:
+            var6 = str(input(f'{Fore.GREEN}What file would you like to make: '))
+            os.system('touch '+var6+'')
             os.system('python3 Script.py')
 else:
     print(f'{Fore.RED + Style.BRIGHT }Sorry for this error. Please report it to https://github.com/tysudo/Help-Script/issues')
