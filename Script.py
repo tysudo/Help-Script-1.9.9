@@ -6,7 +6,6 @@ from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
 import argparse
 import scrapy
-
 #TEST
 
 #TEST END
@@ -15,8 +14,11 @@ parser = argparse.ArgumentParser(description='This is a script that will make yo
 args = parser.parse_args()
 #added another comment
 #print(f'{Fore.RED + Style.BRIGHT }If you find any bugs in this script, please report them to https://github.com/tysudo/Help-Script/issues ')
-ChooseOS = str(input(f'{Fore.GREEN}What Operating System are you using, Linux or Mac? cAsE SeNsItIvE: '))
+ChooseOS = str(input(f'{Fore.GREEN}What Operating System are you using, Linux or Mac or Quit? cAsE SeNsItIvE: '))
 
+#eeeeeeeeeeeeeeeeeeeeeee
+if ChooseOS == "Quit":
+    sys.exit()
 #eeeeeeeeeeeeeeeeeeeeeee
 
 if ChooseOS == "Linux":
@@ -25,9 +27,13 @@ if ChooseOS == "Linux":
     print(f'{Fore.RED}Install')
     print(f'{Fore.RED}Other')
     print(f'{Fore.RED}System')
+    print(f'{Fore.RED}Quit')
 
     pick = str(input(f'{Fore.GREEN}What do you want to do: '))
   
+    #eeeeeeeeeeeeeeeeeeeeeee
+    if pick == "Quit":
+        sys.exit()
     #eeeeeeeeeeeeeeeeeeeeeee
  
     if pick == "Search":
@@ -37,6 +43,7 @@ if ChooseOS == "Linux":
         print(f'{Fore.GREEN}(4)Search NewEgg')
         print(f'{Fore.GREEN}(5)Search Google')
         print(f'{Fore.GREEN}(6)VSCODE Web Builder')
+        print(f'{Fore.GREEN}(7)Quit')
         search = int(input(f'{Fore.GREEN}What do you want to do: '))
         if search == 1:
             var1 = str(input('What would you like to search for. Spaces must be +: '))
@@ -61,6 +68,8 @@ if ChooseOS == "Linux":
         if search == 6:
             os.system('google-chrome vscode.dev')
             os.system('python3 Script.py')
+        if search == 7:
+            sys.exit()
   
     #eeeeeeeeeeeeeeeeeee
  
@@ -132,9 +141,12 @@ if ChooseOS =="Mac":
     print(f'{Fore.RED}Install')
     print(f'{Fore.RED}Other')
     print(f'{Fore.RED}System')
+    print(f'{Fore.RED}Quit')
 
     pick = str(input(f'{Fore.GREEN}What do you want to do: '))
-
+    #eeeeeeeeeeeeeeeeeeeeeee
+    if pick == "Quit":
+        sys.exit()
     #eeeeeeeeeeeeeeeeeeeeeee
 
     if pick == "Search":
