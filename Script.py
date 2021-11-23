@@ -181,7 +181,7 @@ if ChooseOS =="Mac":
             var5 = str(input('What would you like to search for. Spaces must be +: '))
             os.system('open -a "Google Chrome" https://www.google.com/search?q='+var5+'')
             os.system('python3 Script.py')
-   
+ 
     #eeeeeeeeeeeeeeeeeee
    
     if pick == "Wine":
