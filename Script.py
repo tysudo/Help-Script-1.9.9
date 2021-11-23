@@ -14,7 +14,7 @@ import scrapy
 parser = argparse.ArgumentParser(description='This is a script that will make your day faster.')
 args = parser.parse_args()
 #added another comment
-print(f'{Fore.RED + Style.BRIGHT }If you find any bugs in this script, please report them to https://github.com/tysudo/Help-Script/issues ')
+#print(f'{Fore.RED + Style.BRIGHT }If you find any bugs in this script, please report them to https://github.com/tysudo/Help-Script/issues ')
 ChooseOS = str(input(f'{Fore.GREEN}What Operating System are you using, Linux or Mac? cAsE SeNsItIvE: '))
 
 #eeeeeeeeeeeeeeeeeeeeeee
