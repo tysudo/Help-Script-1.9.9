@@ -221,6 +221,7 @@ if ChooseOS =="Mac":
             os.system('python3 Script.py')
 else:
     print(f'{Fore.RED + Style.BRIGHT }Sorry for this error. Please report it to https://github.com/tysudo/Help-Script/issues')
+    os.system('python3 Script.py')
  
     
         
