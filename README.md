@@ -1,5 +1,5 @@
 # Help Script 
-## This script needs Python3 and Pip3 installed.
+## This script needs Python3 and Pip3 and Git installed.
  Python Script that will do stuff.
  Please run this code ↓ ↓ ↓
 If on __Linux__ run this ↓ ↓ ↓
