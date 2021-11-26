@@ -6,6 +6,7 @@ from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
 import argparse
 import scrapy
+
 #puplish
 
 
@@ -116,7 +117,6 @@ if ChooseOS == "Linux":
         print(f'{Fore.GREEN}(3)Search directory')
         print(f'{Fore.GREEN}(4)Clone somthing off of Github')
         print(f'{Fore.GREEN}(5)Make a File')
-        print(f'{Fore.GREEN}(6)Do math')
         System = int(input('What would you like to do: '))
         if System == 1:
             os.system('sl')
@@ -136,9 +136,6 @@ if ChooseOS == "Linux":
             var9 = str(input(f'{Fore.GREEN}What file would you like to make. EX python.py: '))
             os.system('touch '+var9+'')
             os.system('python3 Script.py')
-        if System == 6:
-            var10 = str(input(f'{Fore.GREEN}What do you want to calculate: '))
-            print(''+var10+'')
             
 if ChooseOS =="Mac":
     print(f'{Fore.RED}Search')
