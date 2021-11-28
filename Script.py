@@ -6,11 +6,6 @@ from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
 import argparse
 import scrapy
-
-#puplish
-
-
-#puplish END
 #args
 parser = argparse.ArgumentParser(description='This is a script that will make your day faster.')
 args = parser.parse_args()
