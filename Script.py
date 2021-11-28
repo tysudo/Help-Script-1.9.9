@@ -117,6 +117,8 @@ if ChooseOS == "Linux":
         print(f'{Fore.GREEN}(3)Search directory')
         print(f'{Fore.GREEN}(4)Clone somthing off of Github')
         print(f'{Fore.GREEN}(5)Make a File')
+        print(f'{Fore.GREEN}(6)Open our custom web browser')
+        print(f'{Fore.GREEN}(7)Check the weather')
         System = int(input('What would you like to do: '))
         if System == 1:
             os.system('sl')
@@ -135,6 +137,12 @@ if ChooseOS == "Linux":
         if System == 5:
             var9 = str(input(f'{Fore.GREEN}What file would you like to make. EX python.py: '))
             os.system('touch '+var9+'')
+            os.system('python3 Script.py')
+        if System == 6:
+            os.system('python3 browser.py')
+            os.system('python3 Script.py')
+        if System == 7:
+            os.system('python3 weather.py')
             os.system('python3 Script.py')
             
 if ChooseOS =="Mac":
