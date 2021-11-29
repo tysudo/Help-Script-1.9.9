@@ -33,7 +33,13 @@ if ChooseOS == "Tytan":
         if tytan1 == 1:
             os.system('google-chrome https://github.com/tysudo/Help-Script')
         if tytan1 == 2:
-            
+            os.system('python3 browser.py')
+            os.system('python3 Script.py')
+        if tytan1 == 3:
+            os.system('code')
+        if tytan1 == 4:
+            os.system('python3 weather.py')
+            os.system('python3 Script.py')
             
 #eeeeeeeeeeeeeeeeeeeeeee
 
