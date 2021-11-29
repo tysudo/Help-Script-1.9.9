@@ -31,7 +31,10 @@ if ChooseOS == "Tytan":
         print(f'{Fore.GREEN}(4)Check the weather')
         tytan1 = str(input('What would you like to do: '))
         if tytan1 == 1:
-            os.system(google-chrome)
+            os.system('google-chrome https://github.com/tysudo/Help-Script')
+        if tytan1 == 2:
+            
+            
 #eeeeeeeeeeeeeeeeeeeeeee
 
 if ChooseOS == "Linux":
