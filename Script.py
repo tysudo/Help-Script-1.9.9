@@ -15,7 +15,23 @@ ChooseOS = str(input(f'{Fore.GREEN}What Operating System are you using, Linux or
 
 #eeeeeeeeeeeeeeeeeeeeeee
 if ChooseOS == "Quit":
-    sys.exit()
+    exit()
+#eeeeeeeeeeeeeeeeeeeeeee
+if ChooseOS == "Tytan":
+    print(f'{Fore.GREEN}Welcome back Tytan, how have you been?')
+    os.system("say Welcome back Tytan, how have you been?")
+    tytan = str(input('So.. Are you good of bad?: '))
+    if tytan == "bad":
+        os.system("say Ok, ok, ok let me get this straight ur mad right you have had a bad day.")
+        os.system("google-chrome https://www.youtube.com/watch?v=DODLEX4zzLQ")
+    if tytan == "good":
+        print(f'{Fore.GREEN}(1)Open GitHub to add more to your script')
+        print(f'{Fore.GREEN}(2)Open my awesome web browser')
+        print(f'{Fore.GREEN}(3)open VSCODE')
+        print(f'{Fore.GREEN}(4)Check the weather')
+        tytan1 = str(input('What would you like to do: '))
+        if tytan1 == 1:
+            os.system(google-chrome)
 #eeeeeeeeeeeeeeeeeeeeeee
 
 if ChooseOS == "Linux":
@@ -30,7 +46,7 @@ if ChooseOS == "Linux":
   
     #eeeeeeeeeeeeeeeeeeeeeee
     if pick == "Quit":
-        sys.exit()
+        exit()
     #eeeeeeeeeeeeeeeeeeeeeee
  
     if pick == "Search":
@@ -66,7 +82,7 @@ if ChooseOS == "Linux":
             os.system('google-chrome vscode.dev')
             os.system('python3 Script.py')
         if search == 7:
-            sys.exit()
+            exit()
   
     #eeeeeeeeeeeeeeeeeee
  
@@ -151,7 +167,7 @@ if ChooseOS =="Mac":
     pick = str(input(f'{Fore.GREEN}What do you want to do: '))
     #eeeeeeeeeeeeeeeeeeeeeee
     if pick == "Quit":
-        sys.exit()
+        exit()
     #eeeeeeeeeeeeeeeeeeeeeee
 
     if pick == "Search":
