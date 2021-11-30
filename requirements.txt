@@ -1,14 +1,11 @@
 altgraph==0.17.2
 appdirs==1.4.3
-apt-clone==0.2.1
-apturl==0.5.2
 asn1crypto==1.4.0
 attrs==21.2.0
 Automat==20.2.0
 backcall==0.2.0
 bcrypt==3.1.7
 beautifulsoup4==4.10.0
-binwalk==2.2.0
 bleach==4.1.0
 blinker==1.4
 boxes==0.0.0
