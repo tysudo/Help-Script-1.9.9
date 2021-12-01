@@ -59,6 +59,14 @@ if ChooseOS == "Linux":
     #eeeeeeeeeeeeeeeeeeeeeee
  
     if pick == "Search":
+        print("""   _____                     _     
+  / ____|                   | |    
+ | (___   ___  __ _ _ __ ___| |__  
+  \___ \ / _ \/ _` | '__/ __| '_ \ 
+  ____) |  __/ (_| | | | (__| | | |
+ |_____/ \___|\__,_|_|  \___|_| |_|
+                                   
+                                   """)
         print(f'{Fore.GREEN}(1)Search Amazon.com')
         print(f'{Fore.GREEN}(2)Search DuckDuckGo')
         print(f'{Fore.GREEN}(3)Search YouTube')
@@ -96,6 +104,14 @@ if ChooseOS == "Linux":
     #eeeeeeeeeeeeeeeeeee
  
     if pick == "Wine":
+        print(""" __          ___            
+ \ \        / (_)           
+  \ \  /\  / / _ _ __   ___ 
+   \ \/  \/ / | | '_ \ / _ \
+    \  /\  /  | | | | |  __/
+     \/  \/   |_|_| |_|\___|
+                            
+                            """)
         print(f'{Fore.GREEN}(1)Wine CMD')
         wine = int(input(f'{Fore.GREEN}What would you like to do: '))
         if wine == 1:
@@ -111,6 +127,14 @@ if ChooseOS == "Linux":
     #eeeeeeeeeeeeeeeeeeeeeeeee
   
     if pick == "Other":
+        print("""   ____  _   _               
+  / __ \| | | |              
+ | |  | | |_| |__   ___ _ __ 
+ | |  | | __| '_ \ / _ \ '__|
+ | |__| | |_| | | |  __/ |   
+  \____/ \__|_| |_|\___|_|   
+                             
+                             """)
         print(f'{Fore.GREEN}(1)Not sus at all')
         print(f'{Fore.GREEN}(2)coolish webpage')
         print(f'{Fore.GREEN}(3)Cool music to listen to')
@@ -132,6 +156,14 @@ if ChooseOS == "Linux":
     #eeeeeeeeeeeeeeeeeeeeeeeeeee
 
     if pick == "System":
+        print("""   _____           _                 
+  / ____|         | |                
+ | (___  _   _ ___| |_ ___ _ __ ___  
+  \___ \| | | / __| __/ _ \ '_ ` _ \ 
+  ____) | |_| \__ \ ||  __/ | | | | |
+ |_____/ \__, |___/\__\___|_| |_| |_|
+          __/ |                      
+         |___/                       """)
         print(f'{Fore.GREEN}(1)Run train')
         print(f'{Fore.GREEN}(2)HTOP')
         print(f'{Fore.GREEN}(3)Search directory')
