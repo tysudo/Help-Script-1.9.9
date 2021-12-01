@@ -200,7 +200,7 @@ if ChooseOS =="Mac":
         search = int(input(f'{Fore.GREEN}What do you want to do: '))
         if search == 1:
             var1 = str(input('What would you like to search for. Spaces must be +: '))
-            os.system('open -a "Chromium" https://www.amazon.ca/s?k='+var1+'')
+            os.system('open -a "Google Chrome" https://www.amazon.ca/s?k='+var1+'')
             os.system('python3 Script.py')
         if search == 2:
             var2 = str(input('What would you like to search for. Spaces must be +: '))
@@ -219,7 +219,7 @@ if ChooseOS =="Mac":
             os.system('open -a "Google Chrome" https://www.google.com/search?q='+var5+'')
             os.system('python3 Script.py')
         if search == 6:
-            os.system('chromium vscode.dev')
+            os.system('Google Chrome vscode.dev')
             os.system('python3 Script.py')
         if search == 7:
             exit()            
