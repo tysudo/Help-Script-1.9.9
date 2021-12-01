@@ -147,6 +147,7 @@ if ChooseOS == "Linux":
         print(f'{Fore.GREEN}(2)coolish webpage')
         print(f'{Fore.GREEN}(3)Cool music to listen to')
         print(f'{Fore.GREEN}(4)Funny video to make you happier')
+        print(f'{Fore.GREEN}(5)Encrypt or decrypt any massage')
         Other = int(input(f'{Fore.GREEN}What would you like to do: '))
         if Other == 1:
             os.system('say oga boga. oga boga')
@@ -159,6 +160,9 @@ if ChooseOS == "Linux":
             os.system('python3 Script.py')
         if Other == 4:
             os.system('chromium https://www.youtube.com/watch?v=R-RZ1OrjtQw')
+            os.system('python3 Script.py')
+        if Other == 5:
+            os.system('python3 encrypt-msg.py')
             os.system('python3 Script.py')
 
     #eeeeeeeeeeeeeeeeeeeeeeeeeee
