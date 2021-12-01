@@ -204,7 +204,17 @@ if ChooseOS == "Linux":
         if System == 7:
             os.system('python3 weather.py')
             os.system('python3 Script.py')
-            
+
+
+
+#eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+
+# IF CHOOSE Mac
+
+#eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee   
+
+
+
 if ChooseOS =="Mac":
     print(f'{Fore.RED}Search')
     print(f'{Fore.RED}Wine')
@@ -225,6 +235,8 @@ if ChooseOS =="Mac":
         print(f'{Fore.GREEN}(3)Search YouTube')
         print(f'{Fore.GREEN}(4)Search NewEgg')
         print(f'{Fore.GREEN}(5)Search Google')
+        print(f'{Fore.GREEN}(6)VSCODE Web Builder')
+        print(f'{Fore.GREEN}(7)Quit')        
         search = int(input(f'{Fore.GREEN}What do you want to do: '))
         if search == 1:
             var1 = str(input('What would you like to search for. Spaces must be +: '))
@@ -246,6 +258,11 @@ if ChooseOS =="Mac":
             var5 = str(input('What would you like to search for. Spaces must be +: '))
             os.system('open -a "Google Chrome" https://www.google.com/search?q='+var5+'')
             os.system('python3 Script.py')
+        if search == 6:
+            os.system('open -a "Google Chrome" https://vscode.dev')
+            os.system('python3 Script.py')
+        if search == 7:
+            exit()            
  
     #eeeeeeeeeeeeeeeeeee
    
