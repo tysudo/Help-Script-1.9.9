@@ -10,9 +10,9 @@ import scrapy
 parser = argparse.ArgumentParser(description='This is a script that will make your day faster.')
 args = parser.parse_args()
 #added another comment
-os.system('clear')
-ChooseOS = str(input(f'{Fore.GREEN}What Operating System are you using, Linux or Mac or Quit? cAsE SeNsItIvE: '))
 
+ChooseOS = str(input(f'{Fore.GREEN}What Operating System are you using, Linux or Mac or Quit? cAsE SeNsItIvE: '))
+os.system('clear')
 #eeeeeeeeeeeeeeeeeeeeeee
 if ChooseOS == "Quit":
     exit()
@@ -23,7 +23,7 @@ if ChooseOS == "Tytan":
     tytan = str(input('So.. Are you good of bad?: '))
     if tytan == "bad":
         os.system("say Ok, ok, ok let me get this straight ur mad right you have had a bad day.")
-        os.system("google-chrome https://www.youtube.com/watch?v=DODLEX4zzLQ")
+        os.system("chromium https://www.youtube.com/watch?v=DODLEX4zzLQ")
     if tytan == "good":
         print(f'{Fore.GREEN}(1)Open GitHub to add more to your script')
         print(f'{Fore.GREEN}(2)Open my awesome web browser')
@@ -31,7 +31,7 @@ if ChooseOS == "Tytan":
         print(f'{Fore.GREEN}(4)Check the weather')
         tytan1 = str(input('What would you like to do: '))
         if tytan1 == 1:
-            os.system('google-chrome https://github.com/tysudo/Help-Script')
+            os.system('chromium https://github.com/tysudo/Help-Script')
         if tytan1 == 2:
             os.system('python3 browser.py')
             os.system('python3 Script.py')
@@ -69,26 +69,26 @@ if ChooseOS == "Linux":
         search = int(input(f'{Fore.GREEN}What do you want to do: '))
         if search == 1:
             var1 = str(input('What would you like to search for. Spaces must be +: '))
-            os.system('google-chrome https://www.amazon.ca/s?k='+var1+'')
+            os.system('chromium https://www.amazon.ca/s?k='+var1+'')
             os.system('python3 Script.py')
         if search == 2:
             var2 = str(input('What would you like to search for. Spaces must be +: '))
-            os.system('google-chrome https://duckduckgo.com/?q='+var2+' ')
+            os.system('chromium https://duckduckgo.com/?q='+var2+' ')
             os.system('python3 Script.py')
         if search == 3:
             var3 = str(input('What would you like to search for. Spaces must be +: '))
-            os.system('google-chrome https://www.youtube.com/results?search_query='+var3+'')
+            os.system('chromium https://www.youtube.com/results?search_query='+var3+'')
             os.system('python3 Script.py')
         if search == 4:
             var4 = str(input('What would you like to search for. Spaces must be +: '))
-            os.system('google-chrome https://www.newegg.ca/p/pl?d='+var4+'')
+            os.system('chromium https://www.newegg.ca/p/pl?d='+var4+'')
             os.system('python3 Script.py')
         if search == 5:
             var5 = str(input('What would you like to search for. Spaces must be +: '))
-            os.system('google-chrome https://www.google.com/search?q='+var5+'')
+            os.system('chromium https://www.google.com/search?q='+var5+'')
             os.system('python3 Script.py')
         if search == 6:
-            os.system('google-chrome vscode.dev')
+            os.system('chromium vscode.dev')
             os.system('python3 Script.py')
         if search == 7:
             exit()
@@ -120,13 +120,13 @@ if ChooseOS == "Linux":
             os.system('say oga boga. oga boga')
             os.system('python3 Script.py')
         if Other == 2:
-            os.system('google-chrome https://www.lingscars.com')
+            os.system('chromium https://www.lingscars.com')
             os.system('python3 Script.py')
         if Other == 3:
-            os.system('google-chrome https://www.youtube.com/watch?v=Et3G7JSw4fQ')
+            os.system('chromium https://www.youtube.com/watch?v=Et3G7JSw4fQ')
             os.system('python3 Script.py')
         if Other == 4:
-            os.system('google-chrome https://www.youtube.com/watch?v=R-RZ1OrjtQw')
+            os.system('chromium https://www.youtube.com/watch?v=R-RZ1OrjtQw')
             os.system('python3 Script.py')
 
     #eeeeeeeeeeeeeeeeeeeeeeeeeee
