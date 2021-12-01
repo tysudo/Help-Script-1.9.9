@@ -219,7 +219,7 @@ if ChooseOS =="Mac":
             os.system('open -a "Google Chrome" https://www.google.com/search?q='+var5+'')
             os.system('python3 Script.py')
         if search == 6:
-            os.system('Google Chrome vscode.dev')
+            os.system('open -a "Google Chrome" https://vscode.dev')
             os.system('python3 Script.py')
         if search == 7:
             exit()            
