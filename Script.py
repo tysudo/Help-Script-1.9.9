@@ -148,6 +148,7 @@ if ChooseOS == "Linux":
         print(f'{Fore.GREEN}(3)Cool music to listen to')
         print(f'{Fore.GREEN}(4)Funny video to make you happier')
         print(f'{Fore.GREEN}(5)Encrypt or decrypt any massage')
+        print(f'{Fore.GREEN}(6)Live chat on local network')
         Other = int(input(f'{Fore.GREEN}What would you like to do: '))
         if Other == 1:
             os.system('say oga boga. oga boga')
@@ -164,6 +165,15 @@ if ChooseOS == "Linux":
         if Other == 5:
             os.system('python3 encrypt-msg.py')
             os.system('python3 Script.py')
+        if Other == 6:
+            chat = str(input("Are you making the server? (y/n): "))
+            if chat == 'y':
+                os.system('sh ./server.sh')
+                os.system('python3 Script.py')
+            if chat == 'n':
+                os.system('python3 chat.py')
+                os.system('python3 Script.py')
+           
 
     #eeeeeeeeeeeeeeeeeeeeeeeeeee
 
