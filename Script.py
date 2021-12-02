@@ -149,6 +149,7 @@ if ChooseOS == "Linux":
         print(f'{Fore.GREEN}(4)Funny video to make you happier')
         print(f'{Fore.GREEN}(5)Encrypt or decrypt any massage')
         print(f'{Fore.GREEN}(6)Live chat on local network')
+        print(f'{Fore.GREEN}(7)Look at system usage')
         Other = int(input(f'{Fore.GREEN}What would you like to do: '))
         if Other == 1:
             os.system('say oga boga. oga boga')
@@ -173,6 +174,9 @@ if ChooseOS == "Linux":
             if chat == 'n':
                 os.system('python3 chat.py')
                 os.system('python3 Script.py')
+        if Other == 7:
+            os.system('python3 systemMonitor.py')
+            os.system('python3 Script.py')
            
 
     #eeeeeeeeeeeeeeeeeeeeeeeeeee
