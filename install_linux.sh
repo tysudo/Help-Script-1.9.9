@@ -1,2 +1,2 @@
-sudo pacman install htop && sudo pacman install sl && sudo pacman install gnustep-gui-runtime
+sudo pacman -S htop && sudo pacman -S sl && sudo pacman -S gnustep-gui-runtime
 

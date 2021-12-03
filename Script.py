@@ -1,6 +1,5 @@
 import os
 import sys
-import tkinter
 import colorama
 from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
