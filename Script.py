@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser(description='This is a script that will make yo
 args = parser.parse_args()
 #added another comment
 
-ChooseOS = str(input(f'{Fore.GREEN}What Operating System are you using, Linux or Mac or Quit? cAsE SeNsItIvE: '))
+ChooseOS = str(input(f'{Fore.GREEN}What Operating System are you using, Linux, Mac or Windows? cAsE SeNsItIvE: '))
 os.system('clear')
 
 
