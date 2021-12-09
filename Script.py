@@ -12,6 +12,179 @@ args = parser.parse_args()
 
 ChooseOS = str(input(f'{Fore.GREEN}What Operating System are you using, Linux or Mac or Quit? cAsE SeNsItIvE: '))
 os.system('clear')
+
+
+#eeeeeeeeeeeeeeeeeeeeeee
+
+#WINDOWS PEOPLE
+
+#eeeeeeeeeeeeeeeeeeeeeee
+
+
+if ChooseOS == "Windows":
+     print("""  _    _      _                       _       _     __   ___   ____  
+ | |  | |    | |                     (_)     | |   /_ | / _ \ |___ \ 
+ | |__| | ___| |_ __    ___  ___ _ __ _ _ __ | |_   | || | | |  __) |
+ |  __  |/ _ \ | '_ \  / __|/ __| '__| | '_ \| __|  | || | | | |__ < 
+ | |  | |  __/ | |_) | \__ \ (__| |  | | |_) | |_   | || |_| | ___) |
+ |_|  |_|\___|_| .__/  |___/\___|_|  |_| .__/ \__|  |_(_)___(_)____/ 
+               | |                     | |                           
+               |_|                     |_|                           """)
+    print(f'{Fore.RED}Search')
+    print(f'{Fore.RED}Other')
+    print(f'{Fore.RED}System')
+    print(f'{Fore.RED}Quit')
+
+    pick = str(input(f'{Fore.GREEN}What do you want to do: '))
+  
+    #eeeeeeeeeeeeeeeeeeeeeee
+    if pick == "Quit":
+        exit()
+    #eeeeeeeeeeeeeeeeeeeeeee
+ 
+    if pick == "Search":
+        print("""   _____                     _     
+  / ____|                   | |    
+ | (___   ___  __ _ _ __ ___| |__  
+  \___ \ / _ \/ _` | '__/ __| '_ \ 
+  ____) |  __/ (_| | | | (__| | | |
+ |_____/ \___|\__,_|_|  \___|_| |_|
+                                   
+                                   """)
+        print(f'{Fore.GREEN}(1)Search Amazon.com')
+        print(f'{Fore.GREEN}(2)Search DuckDuckGo')
+        print(f'{Fore.GREEN}(3)Search YouTube')
+        print(f'{Fore.GREEN}(4)Search NewEgg')
+        print(f'{Fore.GREEN}(5)Search Google')
+        print(f'{Fore.GREEN}(6)VSCODE Web Builder')
+        print(f'{Fore.GREEN}(7)Quit')
+        search = int(input(f'{Fore.GREEN}What do you want to do: '))
+        if search == 1:
+            var1 = str(input('What would you like to search for. Spaces must be +: '))
+            os.system('chromium https://www.amazon.ca/s?k='+var1+'')
+            os.system('python3 Script.py')
+        if search == 2:
+            var2 = str(input('What would you like to search for. Spaces must be +: '))
+            os.system('chromium https://duckduckgo.com/?q='+var2+' ')
+            os.system('python3 Script.py')
+        if search == 3:
+            var3 = str(input('What would you like to search for. Spaces must be +: '))
+            os.system('chromium https://www.youtube.com/results?search_query='+var3+'')
+            os.system('python3 Script.py')
+        if search == 4:
+            var4 = str(input('What would you like to search for. Spaces must be +: '))
+            os.system('chromium https://www.newegg.ca/p/pl?d='+var4+'')
+            os.system('python3 Script.py')
+        if search == 5:
+            var5 = str(input('What would you like to search for. Spaces must be +: '))
+            os.system('chromium https://www.google.com/search?q='+var5+'')
+            os.system('python3 Script.py')
+        if search == 6:
+            os.system('chromium vscode.dev')
+            os.system('python3 Script.py')
+        if search == 7:
+            exit()
+  
+    #eeeeeeeeeeeeeeeeeee
+ 
+   
+    #eeeeeeeeeeeeeeeeeeeeeeeee
+  
+    if pick == "Other":
+        print("""   ____  _   _               
+  / __ \| | | |              
+ | |  | | |_| |__   ___ _ __ 
+ | |  | | __| '_ \ / _ \ '__|
+ | |__| | |_| | | |  __/ |   
+  \____/ \__|_| |_|\___|_|   
+                             
+                             """)
+        print(f'{Fore.GREEN}(1)Not sus at all')
+        print(f'{Fore.GREEN}(2)coolish webpage')
+        print(f'{Fore.GREEN}(3)Cool music to listen to')
+        print(f'{Fore.GREEN}(4)Funny video to make you happier')
+        print(f'{Fore.GREEN}(5)Encrypt or decrypt any massage')
+        print(f'{Fore.GREEN}(6)Live chat on local network')
+        print(f'{Fore.GREEN}(7)Look at system usage')
+        Other = int(input(f'{Fore.GREEN}What would you like to do: '))
+        if Other == 1:
+            os.system('say oga boga. oga boga')
+            os.system('py Script.py')
+        if Other == 2:
+            os.system('chromium https://www.lingscars.com')
+            os.system('py Script.py')
+        if Other == 3:
+            os.system('chromium https://www.youtube.com/watch?v=Et3G7JSw4fQ')
+            os.system('py Script.py')
+        if Other == 4:
+            os.system('chromium https://www.youtube.com/watch?v=R-RZ1OrjtQw')
+            os.system('py Script.py')
+        if Other == 5:
+            os.system('py encrypt-msg.py')
+            os.system('py Script.py')
+        if Other == 6:
+            chat = str(input("Are you making the server? (y/n): "))
+            if chat == 'y':
+                os.system('sh ./server.sh')
+                os.system('py Script.py')
+            if chat == 'n':
+                os.system('python3 chat.py')
+                os.system('python3 Script.py')
+        if Other == 7:
+            os.system('python3 systemMonitor.py')
+            os.system('python3 Script.py')
+           
+
+    #eeeeeeeeeeeeeeeeeeeeeeeeeee
+
+    if pick == "System":
+        print("""   _____           _                 
+  / ____|         | |                
+ | (___  _   _ ___| |_ ___ _ __ ___  
+  \___ \| | | / __| __/ _ \ '_ ` _ \ 
+  ____) | |_| \__ \ ||  __/ | | | | |
+ |_____/ \__, |___/\__\___|_| |_| |_|
+          __/ |                      
+         |___/                       """)
+        print(f'{Fore.GREEN}(1)Run train')
+        print(f'{Fore.GREEN}(2)HTOP')
+        print(f'{Fore.GREEN}(3)Search directory')
+        print(f'{Fore.GREEN}(4)Clone somthing off of Github')
+        print(f'{Fore.GREEN}(5)Make a File')
+        print(f'{Fore.GREEN}(6)Open our custom web browser')
+        print(f'{Fore.GREEN}(7)Check the weather')
+        System = int(input('What would you like to do: '))
+        if System == 1:
+            os.system('sl')
+            os.system('python3 Script.py')
+        if System == 2:
+            os.system('htop')
+            os.system('python3 Script.py')
+        if System == 3:
+            var7 = str(input(f'{Fore.GREEN}What directory would you like to search: '))
+            os.system('ls '+var7+'')
+            os.system('python3 Script.py')
+        if System == 4:
+            var8 = str(input(f'{Fore.GREEN}What would you like to clone: '))
+            os.system('git clone '+var8+' cloned')
+            os.system('python3 Script.py')
+        if System == 5:
+            var9 = str(input(f'{Fore.GREEN}What file would you like to make. EX python.py: '))
+            os.system('touch '+var9+'')
+            os.system('python3 Script.py')
+        if System == 6:
+            os.system('python3 browser.py')
+            os.system('python3 Script.py')
+        if System == 7:
+            os.system('python3 weather.py')
+            os.system('python3 Script.py')
+
+
+
+
+
+
+
 #eeeeeeeeeeeeeeeeeeeeeee
 if ChooseOS == "Quit":
     exit()
