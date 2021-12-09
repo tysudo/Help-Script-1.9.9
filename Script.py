@@ -22,7 +22,7 @@ os.system('clear')
 
 
 if ChooseOS == "Windows":
-     print("""  _    _      _                       _       _     __   ___   ____  
+    print("""  _    _      _                       _       _     __   ___   ____  
  | |  | |    | |                     (_)     | |   /_ | / _ \ |___ \ 
  | |__| | ___| |_ __    ___  ___ _ __ _ _ __ | |_   | || | | |  __) |
  |  __  |/ _ \ | '_ \  / __|/ __| '__| | '_ \| __|  | || | | | |__ < 
@@ -62,26 +62,26 @@ if ChooseOS == "Windows":
         if search == 1:
             var1 = str(input('What would you like to search for. Spaces must be +: '))
             os.system('start chrome https://www.amazon.ca/s?k='+var1+'')
-            os.system('python3 Script.py')
+            os.system('python Script.py')
         if search == 2:
             var2 = str(input('What would you like to search for. Spaces must be +: '))
             os.system('start chrome https://duckduckgo.com/?q='+var2+' ')
-            os.system('python3 Script.py')
+            os.system('python Script.py')
         if search == 3:
             var3 = str(input('What would you like to search for. Spaces must be +: '))
             os.system('start chrome https://www.youtube.com/results?search_query='+var3+'')
-            os.system('python3 Script.py')
+            os.system('python Script.py')
         if search == 4:
             var4 = str(input('What would you like to search for. Spaces must be +: '))
             os.system('start chrome https://www.newegg.ca/p/pl?d='+var4+'')
-            os.system('python3 Script.py')
+            os.system('python Script.py')
         if search == 5:
             var5 = str(input('What would you like to search for. Spaces must be +: '))
             os.system('start chrome https://www.google.com/search?q='+var5+'')
-            os.system('python3 Script.py')
+            os.system('python Script.py')
         if search == 6:
             os.system('start chrome vscode.dev')
-            os.system('python3 Script.py')
+            os.system('python Script.py')
         if search == 7:
             exit()
   
@@ -109,30 +109,30 @@ if ChooseOS == "Windows":
         Other = int(input(f'{Fore.GREEN}What would you like to do: '))
         if Other == 1:
             os.system('say oga boga. oga boga')
-            os.system('py Script.py')
+            os.system('python Script.py')
         if Other == 2:
             os.system('start chrome https://www.lingscars.com')
-            os.system('py Script.py')
+            os.system('python Script.py')
         if Other == 3:
             os.system('start chrome https://www.youtube.com/watch?v=Et3G7JSw4fQ')
-            os.system('py Script.py')
+            os.system('python Script.py')
         if Other == 4:
             os.system('start chrome https://www.youtube.com/watch?v=R-RZ1OrjtQw')
-            os.system('py Script.py')
+            os.system('python Script.py')
         if Other == 5:
-            os.system('py encrypt-msg.py')
-            os.system('py Script.py')
+            os.system('python encrypt-msg.py')
+            os.system('python Script.py')
         if Other == 6:
             chat = str(input("Are you making the server? (y/n): "))
             if chat == 'y':
                 os.system('sh ./server.sh')
-                os.system('py Script.py')
+                os.system('python Script.py')
             if chat == 'n':
                 os.system('py chat.py')
-                os.system('py Script.py')
+                os.system('python Script.py')
         if Other == 7:
-            os.system('py systemMonitor.py')
-            os.system('py Script.py')
+            os.system('python systemMonitor.py')
+            os.system('python Script.py')
            
 
     #eeeeeeeeeeeeeeeeeeeeeeeeeee
@@ -149,35 +149,35 @@ if ChooseOS == "Windows":
         print(f'{Fore.GREEN}(1)Run train')
         print(f'{Fore.GREEN}(2)HTOP')
         print(f'{Fore.GREEN}(3)Search directory')
-        print(f'{Fore.GREEN}(4)Clone somthing off of Github')
+        print(f'{Fore.GREEN}(4)Clone somthing off of Github. Currently not working')
         print(f'{Fore.GREEN}(5)Make a File')
         print(f'{Fore.GREEN}(6)Open our custom web browser')
         print(f'{Fore.GREEN}(7)Check the weather')
         System = int(input('What would you like to do: '))
         if System == 1:
             os.system('sl')
-            os.system('py Script.py')
+            os.system('python Script.py')
         if System == 2:
             os.system('htop')
-            os.system('py Script.py')
+            os.system('python Script.py')
         if System == 3:
             var7 = str(input(f'{Fore.GREEN}What directory would you like to search: '))
             os.system('ls '+var7+'')
-            os.system('py Script.py')
+            os.system('python Script.py')
         if System == 4:
             var8 = str(input(f'{Fore.GREEN}What would you like to clone: '))
             os.system('git clone '+var8+' cloned')
-            os.system('py Script.py')
+            os.system('python Script.py')
         if System == 5:
             var9 = str(input(f'{Fore.GREEN}What file would you like to make. EX python.py: '))
             os.system('type nul > '+var9+'')
-            os.system('py Script.py')
+            os.system('python Script.py')
         if System == 6:
-            os.system('py browser.py')
-            os.system('py Script.py')
+            os.system('python browser.py')
+            os.system('python Script.py')
         if System == 7:
-            os.system('py weather.py')
-            os.system('py Script.py')
+            os.system('python weather.py')
+            os.system('python Script.py')
 
 
 
