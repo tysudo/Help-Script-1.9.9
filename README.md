@@ -22,7 +22,7 @@ If on __Linux__ run this ↓ ↓ ↓
  ```
  - [x] Add at least 12 functions
  - [x] Add easier CLI.
- - [ ] Make avilable for Windows users
+ - [ ] Make avilable for Windows users. Almost done
  - [ ] Possibly add GUI
  
 
