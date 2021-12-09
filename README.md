@@ -4,8 +4,8 @@
  Please run this code ↓ ↓ ↓
 If on __Linux__ run this ↓ ↓ ↓
  ```
- git clone https://github.com/tysudo/Python-Script.git
- cd Python-Script
+ git clone https://github.com/tysudo/Help-Script.git
+ cd Help-Script
  pip install -r requirements.txt
  python3 Script.py
  #DO NOT RUN THE OLD SCRIPT
@@ -13,8 +13,8 @@ If on __Linux__ run this ↓ ↓ ↓
  If on __MacOS__ run ↓ ↓ ↓
  
  ```
- git clone https://github.com/tysudo/Python-Script.git
- cd Python-Script
+ git clone https://github.com/tysudo/Help-Script.git
+ cd Help-Script
  pip install -r requirements.txt
  python3 Script.py
  stty sane
@@ -22,14 +22,14 @@ If on __Linux__ run this ↓ ↓ ↓
  ```
  If on __Windows__ run this ↓ ↓ ↓
   ```
-  git clone https://github.com/tysudo/Python-Script.git
-  cd Python-Script
+  git clone https://github.com/tysudo/Help-Script.git
+  cd Help-Script
   pip install -r requirements.txt
   python Script.py
    ```
  - [x] Add at least 12 functions
  - [x] Add easier CLI.
- - [x] Make avilable for Windows users. Almost done
+ - [x] Make avilable for Windows users
  - [ ] Possibly add GUI
  
 
