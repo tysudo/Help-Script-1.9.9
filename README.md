@@ -20,9 +20,16 @@ If on __Linux__ run this ↓ ↓ ↓
  stty sane
  #DO NOT RUN THE OLD SCRIPT
  ```
+ If on __Windows__ run this ↓ ↓ ↓
+  ```
+  git clone https://github.com/tysudo/Python-Script.git
+  cd Python-Script
+  pip install -r requirements.txt
+  python Script.py
+   ```
  - [x] Add at least 12 functions
  - [x] Add easier CLI.
- - [ ] Make avilable for Windows users. Almost done
+ - [x] Make avilable for Windows users. Almost done
  - [ ] Possibly add GUI
  
 
