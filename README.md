@@ -6,7 +6,6 @@ If on __Linux__ run this ↓ ↓ ↓
  ```
  git clone https://github.com/tysudo/Python-Script.git
  cd Python-Script
- pip3 freeze > requirements.txt
  pip install -r requirements.txt
  python3 Script.py
  #DO NOT RUN THE OLD SCRIPT
@@ -16,7 +15,6 @@ If on __Linux__ run this ↓ ↓ ↓
  ```
  git clone https://github.com/tysudo/Python-Script.git
  cd Python-Script
- pip3 freeze > requirements.txt
  pip install -r requirements.txt
  python3 Script.py
  stty sane
