@@ -4,14 +4,13 @@ import colorama
 from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
 import argparse
-import scrapy
 #args
 parser = argparse.ArgumentParser(description='This is a script that will make your day faster.')
 args = parser.parse_args()
 #added another comment
 
 ChooseOS = str(input(f'{Fore.GREEN}What Operating System are you using, Linux, Mac or Windows? cAsE SeNsItIvE: '))
-os.system('clear')
+os.system('cls')
 
 
 #eeeeeeeeeeeeeeeeeeeeeee
@@ -39,7 +38,7 @@ if ChooseOS == "Windows":
   
     #eeeeeeeeeeeeeeeeeeeeeee
     if pick == "Quit":
-        exit()
+        sys.exit()
     #eeeeeeeeeeeeeeeeeeeeeee
  
     if pick == "Search":
@@ -83,7 +82,7 @@ if ChooseOS == "Windows":
             os.system('start chrome vscode.dev')
             os.system('python Script.py')
         if search == 7:
-            exit()
+            sys.exit()
   
     #eeeeeeeeeeeeeeeeeee
  
@@ -153,6 +152,7 @@ if ChooseOS == "Windows":
         print(f'{Fore.GREEN}(5)Make a File')
         print(f'{Fore.GREEN}(6)Open our custom web browser')
         print(f'{Fore.GREEN}(7)Check the weather')
+        print(f'{Fore.GREEN}(8)Run system command')
         System = int(input('What would you like to do: '))
         if System == 1:
             os.system('sl')
@@ -178,6 +178,12 @@ if ChooseOS == "Windows":
         if System == 7:
             os.system('python weather.py')
             os.system('python Script.py')
+        if System == 8:
+            var10 = str(input(f'{Fore.GREEN}What command would you like to run: '))
+            os.system(''+var10+'')
+            os.system('python Script.py')
+            
+            
 
 
 
@@ -187,7 +193,7 @@ if ChooseOS == "Windows":
 
 #eeeeeeeeeeeeeeeeeeeeeee
 if ChooseOS == "Quit":
-    exit()
+    sys.exit()
 #eeeeeeeeeeeeeeeeeeeeeee
 if ChooseOS == "Tytan":
     print(f'{Fore.GREEN}Welcome back Tytan, how have you been?')
@@ -235,7 +241,7 @@ if ChooseOS == "Linux":
   
     #eeeeeeeeeeeeeeeeeeeeeee
     if pick == "Quit":
-        exit()
+        sys.exit()
     #eeeeeeeeeeeeeeeeeeeeeee
  
     if pick == "Search":
@@ -279,7 +285,7 @@ if ChooseOS == "Linux":
             os.system('chromium vscode.dev')
             os.system('python3 Script.py')
         if search == 7:
-            exit()
+            sys.exit()
   
     #eeeeeeeeeeeeeeeeeee
  
@@ -416,7 +422,7 @@ if ChooseOS =="Mac":
     pick = str(input(f'{Fore.GREEN}What do you want to do: '))
     #eeeeeeeeeeeeeeeeeeeeeee
     if pick == "Quit":
-        exit()
+        sys.exit()
     #eeeeeeeeeeeeeeeeeeeeeee
 
     if pick == "Search":
@@ -452,7 +458,7 @@ if ChooseOS =="Mac":
             os.system('open -a "Google Chrome" https://vscode.dev')
             os.system('python3 Script.py')
         if search == 7:
-            exit()            
+            sys.exit()            
  
     #eeeeeeeeeeeeeeeeeee
    
