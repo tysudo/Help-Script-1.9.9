@@ -34,8 +34,8 @@ If on __Linux__ run this ↓ ↓ ↓
  
 
 Made by 
-- Tysudo
-- Edward W
+- Tysudo (I make the 'Linux' and 'Windows' part of the script)
+- Edward W (He made the 'Mac' part of the script)
 
 
 
