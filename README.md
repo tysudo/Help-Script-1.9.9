@@ -10,7 +10,7 @@ If on __Linux__ run this ↓ ↓ ↓
  python3 Script.py
  #DO NOT RUN THE OLD SCRIPT
  ```
- If on __MacOS__ run ↓ ↓ ↓ __(depreciated)__
+ If on __MacOS__ run ↓ ↓ ↓ ***(depreciated)***
  
  ```
  git clone https://github.com/tysudo/Help-Script.git
