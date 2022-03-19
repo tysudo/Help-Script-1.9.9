@@ -8,7 +8,6 @@ If on __Linux__ run this ↓ ↓ ↓
  cd Help-Script
  pip install -r requirements.txt
  python3 Script.py
- #DO NOT RUN THE OLD SCRIPT
  ```
  If on __MacOS__ run ↓ ↓ ↓ ***(depreciated)***
  
@@ -18,7 +17,6 @@ If on __Linux__ run this ↓ ↓ ↓
  pip install -r requirements.txt
  python3 Script.py
  stty sane
- #DO NOT RUN THE OLD SCRIPT
  ```
  If on __Windows__ run this ↓ ↓ ↓
   ```
