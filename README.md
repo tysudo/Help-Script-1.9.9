@@ -1,5 +1,6 @@
-# Help Script 
-## This script needs Python3 and Pip3 and Git installed.
+#***THIS SCRIPT HAS NOW MOVED TO A [WEBSITE](tysudo.github.io) / NEW GITHUB [REPO](https://github.com/tysudo/tysudo.github.io)***
+##Help Script 
+### This script needs Python3 and Pip3 and Git installed.
  Python Script that will do stuff.
  Please run this code ↓ ↓ ↓
 If on __Linux__ run this ↓ ↓ ↓
